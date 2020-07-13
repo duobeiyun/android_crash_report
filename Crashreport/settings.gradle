@@ -1,0 +1,3 @@
+include ':crashreport_lib'
+include ':crashrepost_sample'
+rootProject.name = "Crashreport"

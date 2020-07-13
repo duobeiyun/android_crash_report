@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <Button
+       android:id="@+id/btn_crash_native"
+       android:layout_width="match_parent"
+       android:text="native崩溃"
+       android:layout_height="wrap_content"/>
+
+   <Button
+       android:id="@+id/btn_crash_java"
+       android:layout_below="@+id/btn_crash_native"
+       android:layout_width="match_parent"
+       android:text="java崩溃"
+       android:layout_height="wrap_content"/>
+
+
+   <Button
+       android:id="@+id/btn_crash_business"
+       android:layout_below="@+id/btn_crash_java"
+       android:layout_width="match_parent"
+       android:text="业务崩溃，不收集"
+       android:layout_height="wrap_content"/>
+
+</RelativeLayout>
